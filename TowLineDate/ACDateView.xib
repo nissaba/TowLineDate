@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" customClass="ACDateView" customModule="ACDateView" customModuleProvider="target">
+            <connections>
+                <outlet property="centerDot" destination="hcz-ec-DA2" id="Ol5-gR-j6C"/>
+                <outlet property="lblDayNumer" destination="463-US-54l" id="6zl-db-48I"/>
+                <outlet property="lblMonthName" destination="51x-eP-2Yx" id="ycg-0z-ppA"/>
+                <outlet property="view" destination="iN0-l3-epB" id="A1o-WL-93j"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="101" height="101"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hcz-ec-DA2" userLabel="center">
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" id="Efv-PW-xaP"/>
+                        <constraint firstAttribute="height" id="Lkg-Ra-4O9"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="463-US-54l">
+                    <rect key="frame" x="34" y="28" width="33" height="23"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SEP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="51x-eP-2Yx">
+                    <rect key="frame" x="34" y="48" width="33" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="hcz-ec-DA2" firstAttribute="centerX" secondItem="463-US-54l" secondAttribute="centerX" id="0T8-0U-zk7"/>
+                <constraint firstItem="51x-eP-2Yx" firstAttribute="top" secondItem="hcz-ec-DA2" secondAttribute="bottom" constant="-3" id="JhJ-d8-KPn"/>
+                <constraint firstAttribute="centerY" secondItem="hcz-ec-DA2" secondAttribute="centerY" id="P5e-XH-35A"/>
+                <constraint firstItem="463-US-54l" firstAttribute="width" secondItem="51x-eP-2Yx" secondAttribute="width" id="QXP-tA-fsD"/>
+                <constraint firstItem="hcz-ec-DA2" firstAttribute="top" secondItem="463-US-54l" secondAttribute="bottom" id="SJQ-S3-djq"/>
+                <constraint firstAttribute="centerX" secondItem="hcz-ec-DA2" secondAttribute="centerX" id="WiT-Nw-JQV"/>
+                <constraint firstItem="hcz-ec-DA2" firstAttribute="centerX" secondItem="51x-eP-2Yx" secondAttribute="centerX" id="gY9-ND-26G"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="107.5" y="202.5"/>
+        </view>
+    </objects>
+</document>

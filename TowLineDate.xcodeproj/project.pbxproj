@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5172E4FC19E11820005EA5F8 /* ACDateView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5172E4FB19E11820005EA5F8 /* ACDateView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5172E50819E11820005EA5F8 /* ACDateViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5172E50719E11820005EA5F8 /* ACDateViewTests.swift */; };
+		5172E50B19E11820005EA5F8 /* ACDateView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5172E4F719E11820005EA5F8 /* ACDateView.framework */; };
+		5172E50C19E11820005EA5F8 /* ACDateView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5172E4F719E11820005EA5F8 /* ACDateView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5172E51519E11C3E005EA5F8 /* ACDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C16F87C19DB949A0077FE72 /* ACDateView.swift */; };
+		5172E51619E11CA1005EA5F8 /* ACDateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C16F87E19DB94B10077FE72 /* ACDateView.xib */; };
+		8C16F85C19DB943D0077FE72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C16F85B19DB943D0077FE72 /* AppDelegate.swift */; };
+		8C16F85E19DB943D0077FE72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C16F85D19DB943D0077FE72 /* ViewController.swift */; };
+		8C16F86119DB943D0077FE72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C16F85F19DB943D0077FE72 /* Main.storyboard */; };
+		8C16F86319DB943D0077FE72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C16F86219DB943D0077FE72 /* Images.xcassets */; };
+		8C16F86619DB943D0077FE72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C16F86419DB943D0077FE72 /* LaunchScreen.xib */; };
+		8C16F87219DB943E0077FE72 /* TowLineDateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C16F87119DB943E0077FE72 /* TowLineDateTests.swift */; };
+		8C16F87D19DB949A0077FE72 /* ACDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C16F87C19DB949A0077FE72 /* ACDateView.swift */; };
+		8C16F87F19DB94B10077FE72 /* ACDateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C16F87E19DB94B10077FE72 /* ACDateView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5172E50219E11820005EA5F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C16F84E19DB943D0077FE72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C16F85519DB943D0077FE72;
+			remoteInfo = TowLineDate;
+		};
+		5172E50919E11820005EA5F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C16F84E19DB943D0077FE72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5172E4F619E11820005EA5F8;
+			remoteInfo = ACDateView;
+		};
+		5172E50D19E11820005EA5F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C16F84E19DB943D0077FE72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5172E4F619E11820005EA5F8;
+			remoteInfo = ACDateView;
+		};
+		8C16F86C19DB943E0077FE72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C16F84E19DB943D0077FE72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C16F85519DB943D0077FE72;
+			remoteInfo = TowLineDate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5172E4CB19E10AF8005EA5F8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5172E50C19E11820005EA5F8 /* ACDateView.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5172E4F719E11820005EA5F8 /* ACDateView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ACDateView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5172E4FA19E11820005EA5F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5172E4FB19E11820005EA5F8 /* ACDateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACDateView.h; sourceTree = "<group>"; };
+		5172E50119E11820005EA5F8 /* ACDateViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACDateViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5172E50619E11820005EA5F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5172E50719E11820005EA5F8 /* ACDateViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACDateViewTests.swift; sourceTree = "<group>"; };
+		8C16F85619DB943D0077FE72 /* TowLineDate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TowLineDate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C16F85A19DB943D0077FE72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C16F85B19DB943D0077FE72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C16F85D19DB943D0077FE72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C16F86019DB943D0077FE72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C16F86219DB943D0077FE72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8C16F86519DB943D0077FE72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8C16F86B19DB943E0077FE72 /* TowLineDateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TowLineDateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C16F87019DB943E0077FE72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C16F87119DB943E0077FE72 /* TowLineDateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowLineDateTests.swift; sourceTree = "<group>"; };
+		8C16F87C19DB949A0077FE72 /* ACDateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ACDateView.swift; path = ../TowLineDate/ACDateView.swift; sourceTree = "<group>"; };
+		8C16F87E19DB94B10077FE72 /* ACDateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ACDateView.xib; path = ../TowLineDate/ACDateView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5172E4F319E11820005EA5F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5172E4FE19E11820005EA5F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C16F85319DB943D0077FE72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5172E50B19E11820005EA5F8 /* ACDateView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C16F86819DB943E0077FE72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5172E4F819E11820005EA5F8 /* ACDateView */ = {
+			isa = PBXGroup;
+			children = (
+				8C16F87C19DB949A0077FE72 /* ACDateView.swift */,
+				8C16F87E19DB94B10077FE72 /* ACDateView.xib */,
+				5172E4FB19E11820005EA5F8 /* ACDateView.h */,
+				5172E4F919E11820005EA5F8 /* Supporting Files */,
+			);
+			path = ACDateView;
+			sourceTree = "<group>";
+		};
+		5172E4F919E11820005EA5F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5172E4FA19E11820005EA5F8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5172E50419E11820005EA5F8 /* ACDateViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5172E50719E11820005EA5F8 /* ACDateViewTests.swift */,
+				5172E50519E11820005EA5F8 /* Supporting Files */,
+			);
+			path = ACDateViewTests;
+			sourceTree = "<group>";
+		};
+		5172E50519E11820005EA5F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5172E50619E11820005EA5F8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C16F84D19DB943D0077FE72 = {
+			isa = PBXGroup;
+			children = (
+				8C16F85819DB943D0077FE72 /* TowLineDate */,
+				5172E4F819E11820005EA5F8 /* ACDateView */,
+				8C16F86E19DB943E0077FE72 /* TowLineDateTests */,
+				5172E50419E11820005EA5F8 /* ACDateViewTests */,
+				8C16F85719DB943D0077FE72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C16F85719DB943D0077FE72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C16F85619DB943D0077FE72 /* TowLineDate.app */,
+				8C16F86B19DB943E0077FE72 /* TowLineDateTests.xctest */,
+				5172E4F719E11820005EA5F8 /* ACDateView.framework */,
+				5172E50119E11820005EA5F8 /* ACDateViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C16F85819DB943D0077FE72 /* TowLineDate */ = {
+			isa = PBXGroup;
+			children = (
+				8C16F85B19DB943D0077FE72 /* AppDelegate.swift */,
+				8C16F85D19DB943D0077FE72 /* ViewController.swift */,
+				8C16F85F19DB943D0077FE72 /* Main.storyboard */,
+				8C16F85919DB943D0077FE72 /* Supporting Files */,
+			);
+			path = TowLineDate;
+			sourceTree = "<group>";
+		};
+		8C16F85919DB943D0077FE72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C16F86219DB943D0077FE72 /* Images.xcassets */,
+				8C16F86419DB943D0077FE72 /* LaunchScreen.xib */,
+				8C16F85A19DB943D0077FE72 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C16F86E19DB943E0077FE72 /* TowLineDateTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C16F87119DB943E0077FE72 /* TowLineDateTests.swift */,
+				8C16F86F19DB943E0077FE72 /* Supporting Files */,
+			);
+			path = TowLineDateTests;
+			sourceTree = "<group>";
+		};
+		8C16F86F19DB943E0077FE72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C16F87019DB943E0077FE72 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5172E4F419E11820005EA5F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5172E4FC19E11820005EA5F8 /* ACDateView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5172E4F619E11820005EA5F8 /* ACDateView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5172E50F19E11820005EA5F8 /* Build configuration list for PBXNativeTarget "ACDateView" */;
+			buildPhases = (
+				5172E4F219E11820005EA5F8 /* Sources */,
+				5172E4F319E11820005EA5F8 /* Frameworks */,
+				5172E4F419E11820005EA5F8 /* Headers */,
+				5172E4F519E11820005EA5F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ACDateView;
+			productName = ACDateView;
+			productReference = 5172E4F719E11820005EA5F8 /* ACDateView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5172E50019E11820005EA5F8 /* ACDateViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5172E51219E11820005EA5F8 /* Build configuration list for PBXNativeTarget "ACDateViewTests" */;
+			buildPhases = (
+				5172E4FD19E11820005EA5F8 /* Sources */,
+				5172E4FE19E11820005EA5F8 /* Frameworks */,
+				5172E4FF19E11820005EA5F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5172E50319E11820005EA5F8 /* PBXTargetDependency */,
+			);
+			name = ACDateViewTests;
+			productName = ACDateViewTests;
+			productReference = 5172E50119E11820005EA5F8 /* ACDateViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C16F85519DB943D0077FE72 /* TowLineDate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C16F87519DB943E0077FE72 /* Build configuration list for PBXNativeTarget "TowLineDate" */;
+			buildPhases = (
+				8C16F85219DB943D0077FE72 /* Sources */,
+				8C16F85319DB943D0077FE72 /* Frameworks */,
+				8C16F85419DB943D0077FE72 /* Resources */,
+				5172E4CB19E10AF8005EA5F8 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5172E50A19E11820005EA5F8 /* PBXTargetDependency */,
+				5172E50E19E11820005EA5F8 /* PBXTargetDependency */,
+			);
+			name = TowLineDate;
+			productName = TowLineDate;
+			productReference = 8C16F85619DB943D0077FE72 /* TowLineDate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C16F86A19DB943E0077FE72 /* TowLineDateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C16F87819DB943E0077FE72 /* Build configuration list for PBXNativeTarget "TowLineDateTests" */;
+			buildPhases = (
+				8C16F86719DB943E0077FE72 /* Sources */,
+				8C16F86819DB943E0077FE72 /* Frameworks */,
+				8C16F86919DB943E0077FE72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C16F86D19DB943E0077FE72 /* PBXTargetDependency */,
+			);
+			name = TowLineDateTests;
+			productName = TowLineDateTests;
+			productReference = 8C16F86B19DB943E0077FE72 /* TowLineDateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C16F84E19DB943D0077FE72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Mobinot Software";
+				TargetAttributes = {
+					5172E4F619E11820005EA5F8 = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = FJ4W3GS6NL;
+					};
+					5172E50019E11820005EA5F8 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 8C16F85519DB943D0077FE72;
+					};
+					8C16F85519DB943D0077FE72 = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = FJ4W3GS6NL;
+					};
+					8C16F86A19DB943E0077FE72 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 8C16F85519DB943D0077FE72;
+					};
+				};
+			};
+			buildConfigurationList = 8C16F85119DB943D0077FE72 /* Build configuration list for PBXProject "TowLineDate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C16F84D19DB943D0077FE72;
+			productRefGroup = 8C16F85719DB943D0077FE72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C16F85519DB943D0077FE72 /* TowLineDate */,
+				8C16F86A19DB943E0077FE72 /* TowLineDateTests */,
+				5172E4F619E11820005EA5F8 /* ACDateView */,
+				5172E50019E11820005EA5F8 /* ACDateViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5172E4F519E11820005EA5F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5172E51619E11CA1005EA5F8 /* ACDateView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5172E4FF19E11820005EA5F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C16F85419DB943D0077FE72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C16F87F19DB94B10077FE72 /* ACDateView.xib in Resources */,
+				8C16F86119DB943D0077FE72 /* Main.storyboard in Resources */,
+				8C16F86619DB943D0077FE72 /* LaunchScreen.xib in Resources */,
+				8C16F86319DB943D0077FE72 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C16F86919DB943E0077FE72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5172E4F219E11820005EA5F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5172E51519E11C3E005EA5F8 /* ACDateView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5172E4FD19E11820005EA5F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5172E50819E11820005EA5F8 /* ACDateViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C16F85219DB943D0077FE72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C16F85E19DB943D0077FE72 /* ViewController.swift in Sources */,
+				8C16F87D19DB949A0077FE72 /* ACDateView.swift in Sources */,
+				8C16F85C19DB943D0077FE72 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C16F86719DB943E0077FE72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C16F87219DB943E0077FE72 /* TowLineDateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5172E50319E11820005EA5F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C16F85519DB943D0077FE72 /* TowLineDate */;
+			targetProxy = 5172E50219E11820005EA5F8 /* PBXContainerItemProxy */;
+		};
+		5172E50A19E11820005EA5F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5172E4F619E11820005EA5F8 /* ACDateView */;
+			targetProxy = 5172E50919E11820005EA5F8 /* PBXContainerItemProxy */;
+		};
+		5172E50E19E11820005EA5F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5172E4F619E11820005EA5F8 /* ACDateView */;
+			targetProxy = 5172E50D19E11820005EA5F8 /* PBXContainerItemProxy */;
+		};
+		8C16F86D19DB943E0077FE72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C16F85519DB943D0077FE72 /* TowLineDate */;
+			targetProxy = 8C16F86C19DB943E0077FE72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C16F85F19DB943D0077FE72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C16F86019DB943D0077FE72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C16F86419DB943D0077FE72 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C16F86519DB943D0077FE72 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5172E51019E11820005EA5F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ACDateView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5172E51119E11820005EA5F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ACDateView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5172E51319E11820005EA5F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ACDateViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TowLineDate.app/TowLineDate";
+			};
+			name = Debug;
+		};
+		5172E51419E11820005EA5F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ACDateViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TowLineDate.app/TowLineDate";
+			};
+			name = Release;
+		};
+		8C16F87319DB943E0077FE72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C16F87419DB943E0077FE72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C16F87619DB943E0077FE72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TowLineDate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C16F87719DB943E0077FE72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TowLineDate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C16F87919DB943E0077FE72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TowLineDateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TowLineDate.app/TowLineDate";
+			};
+			name = Debug;
+		};
+		8C16F87A19DB943E0077FE72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TowLineDateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TowLineDate.app/TowLineDate";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5172E50F19E11820005EA5F8 /* Build configuration list for PBXNativeTarget "ACDateView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5172E51019E11820005EA5F8 /* Debug */,
+				5172E51119E11820005EA5F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5172E51219E11820005EA5F8 /* Build configuration list for PBXNativeTarget "ACDateViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5172E51319E11820005EA5F8 /* Debug */,
+				5172E51419E11820005EA5F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8C16F85119DB943D0077FE72 /* Build configuration list for PBXProject "TowLineDate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C16F87319DB943E0077FE72 /* Debug */,
+				8C16F87419DB943E0077FE72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C16F87519DB943E0077FE72 /* Build configuration list for PBXNativeTarget "TowLineDate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C16F87619DB943E0077FE72 /* Debug */,
+				8C16F87719DB943E0077FE72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C16F87819DB943E0077FE72 /* Build configuration list for PBXNativeTarget "TowLineDateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C16F87919DB943E0077FE72 /* Debug */,
+				8C16F87A19DB943E0077FE72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C16F84E19DB943D0077FE72 /* Project object */;
+}
